@@ -1,0 +1,90 @@
+.marketing-team{
+  &__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 56px;
+    text-align: center;
+    color: #2c1258;
+  }
+
+  &__subtitle {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    color: #604b83;
+  }
+
+  &__avatars-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 60px;
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  &__avatars-box:hover .avatar {
+    opacity: 0.7;
+  }
+  &__avatars-box:hover .avatar:hover {
+    opacity: 1;
+  }
+}
+
+
+.avatar {
+  display: flex;
+  align-items: center;
+  flex: 1 0 30%;
+  transition: transform 0.5s;
+
+  &__name {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #2c1258;
+  }
+
+  &__function {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #604b83;
+  }
+
+  img {
+    margin-right: 15px;
+  }
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 9px 9px 35px rgb(56 11 113 / 10%);
+  }
+}
+
+
+
+
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 767px) {
+  .marketing-team__avatars-box {
+    padding: 15px 10px 15px 10px;
+  }
+  .avatar {
+    flex: 1 0 50%;
+  }
+}

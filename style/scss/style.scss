@@ -1,0 +1,48 @@
+@import "header.scss";
+@import "buttons.scss";
+@import "stick.scss";
+@import "frontpage.scss";
+@import "reasons.scss";
+@import "conversion.scss";
+@import "services.scss";
+@import "step-section.scss";
+@import "marketing-team.scss";
+@import "cards.scss";
+@import "slider.scss";
+@import "our-posts.scss";
+@import "requirements.scss";
+@import "form.scss";
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+.sectionimg{
+  display: block;
+  width: 100%;
+  align-items: center;
+}
+
+
+@media (max-width: 1400px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+  }
+}

@@ -1,0 +1,103 @@
+.back-color {
+  background-color: #421b81;
+}
+
+.container-text {
+  padding: 60px 0 60px 0;
+
+  &__title {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 56px;
+    text-align: center;
+    color: #ffffff;
+    span {
+      font-weight: 400;
+      font-size: 42px;
+    }
+  }
+
+  &__subtitle {
+    margin-top: 44px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 9px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+.diagram {
+  &__title {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  &__subtitle {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  &__container {
+    margin-top: 88px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 15px;
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 0 1 15%;
+  }
+}
+
+.point {
+  width: 267px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  height: 2px;
+  flex: 0 1 15%;
+  transform: translate(0px, -15px);
+}
+
+@media (max-width: 1400px) {
+}
+@media (max-width: 992px) {
+  .diagram__box {
+    flex: 1 0 33.3%;
+  }
+}
+
+@media (max-width: 767px) {
+  .point {
+    display: none;
+  }
+  .diagram__container {
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding: 0 10px 0 10px;
+  }
+  .diagram__box {
+    flex: 1 0 33.3%;
+  }
+  .container-text__subtitle {
+    line-height: 15px;
+  }
+}

@@ -1,0 +1,89 @@
+.requirements__background {
+  background-color: #2c1258;
+}
+
+.requirements__info {
+  text-align: center;
+  padding: 100px 0 100px 0;
+}
+
+.requirements__title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 56px;
+  color: #ffffff;
+}
+
+.requirements__subtitle {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.index {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2c1258;
+}
+
+.text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #604b83;
+  cursor: pointer;
+}
+
+.requirement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 367px;
+  height: 283px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.07);
+  border-radius: 16px;
+}
+.requirement div {
+  text-align: center;
+}
+
+.requirements__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  -webkit-transform: translate(1px, -150px);
+          transform: translate(1px, -150px);
+}
+
+@media (max-width: 767px) {
+  .requirements__container {
+    -webkit-transform: translate(1px, -100px);
+            transform: translate(1px, -100px);
+  }
+}

@@ -1,0 +1,64 @@
+.reasons__content {
+  margin-top: 174px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  &__img {
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.satisfaction__conatiner {
+  margin-top: 25px;
+  display: flex;
+}
+
+.satisfaction {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f6f1ff;
+  border-radius: 10px;
+  width: 253px;
+  height: 114px;
+  margin: 25px 20px 0 0;
+}
+.percent {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: #2c1258;
+}
+.text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #2c1258;
+}
+
+@media (max-width: 1400px){
+
+}
+@media (max-width: 992px){
+
+}
+@media (max-width: 767px){
+    .reasons__content{
+        display: block;
+        margin-top: 25px;
+    }
+    .satisfaction__conatiner{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .reasons__img{
+        text-align: center;
+    }
+}

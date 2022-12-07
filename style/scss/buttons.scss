@@ -1,0 +1,59 @@
+.header-btn {
+  color: #fff;
+  background-color: #f4ab00;
+  border-radius: 32px;
+  border: none;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+
+  &:hover {
+    background-color: rgb(116, 178, 34);
+  }
+}
+.btn {
+  color: #fff;
+  background-color: #f4ab00;
+  border-radius: 32px;
+  border: none;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+
+  &:hover {
+    background-color: rgb(116, 178, 34);
+  }
+}
+.small {
+  width: 100px;
+  height: 41px;
+}
+.middle {
+  width: 165px;
+  height: 56px;
+}
+.max {
+  width: 186px;
+  height: 52px;
+}
+.btn-card {
+  border: 2px solid #2c1258;
+  border-radius: 32px;
+  width: 186px;
+  height: 52px;
+  background-color: #fff;
+  text-align: center;
+  color: #2c1258;
+  &:hover {
+    color: #fff;
+    background-color: #f4ab00;
+  }
+}
